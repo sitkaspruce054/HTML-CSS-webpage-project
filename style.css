@@ -1,0 +1,42 @@
+body{
+  
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{  
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;  
+}
+a {
+    color:aliceblue;
+    text-decoration: none;
+}   
+    
+.lef{
+    font-weight: bold;
+    color:aliceblue;
+    gap: 16px;
+    font-size: 36px;
+    flex-basis:1;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px; 
+  }
+.body{
+    display: flex;
+}
+
+
+
